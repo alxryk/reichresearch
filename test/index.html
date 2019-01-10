@@ -2,8 +2,22 @@
 <html>
   <head>
     <title>This is the title of the webpage!</title>
+    .issuu-embed-container {
+   position: relative;
+   padding-bottom: 92.39%; /* set the aspect ratio here as (height / width) * 100% */
+   height: 0;
+   overflow: hidden;
+   max-width: 100%;
+}
+.issuu-embed-container iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
   </head>
   <body>
-   <div align="center"><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReichHouseMS%2Fposts%2F315179645871807&width=552&show_text=true&appId=1965469013773054&height=510" width="552" height="510" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
+   <div align="center" class="issuu-embed-container"><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FReichHouseMS%2Fposts%2F315179645871807&width=552&show_text=true&appId=1965469013773054&height=510" width="552" height="510" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
   </body>
 </html>
