@@ -666,10 +666,10 @@ display: none;
 }
 /*Anchors*/
 #deathtape {
-scroll-margin-top:15px;
+scroll-margin-top:10px;
 }
 #nbcnewsinterview {
-scroll-margin-top:1px;
+scroll-margin-top:10px;
 }
 #charlottexmassitting {
 scroll-margin-top:10px;
@@ -1251,6 +1251,12 @@ display: none;
 margin-left: 0;
 }
 /*Anchors*/
+#deathtape {
+scroll-margin-top:26px;
+}
+#nbcnewsinterview {
+scroll-margin-top:26px;
+}
 #charlottexmassitting {
 scroll-margin-top:26px;
 }
@@ -1836,6 +1842,12 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
+#deathtape {
+scroll-margin-top:26px;
+}
+#nbcnewsinterview {
+scroll-margin-top:26px;
+}
 #charlottexmassitting {
 scroll-margin-top:26px;
 }
