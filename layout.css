@@ -49,19 +49,6 @@ margin-bottom: 22px;
 .audiomargin {
 margin-bottom: 12px;
 }
-.home {
-max-width: 60px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-text-align: center;
-font-size: x-large;
-clear: both;
-margin-left: auto;
-margin-right: auto;
-padding-top: 30px;
-color: rgba(255,255,255,1.00);
-}
 /* VideoJS - show poster, show play button, hide bottom controls */
 .video-js.vjs-ended .vjs-poster {
 display: block;
@@ -78,31 +65,6 @@ font-weight: bolder;
 }
 .headliner {
 padding-top: 20px;
-}
-/* Anchor Tags: Write all the same way based on #ID 
-Two different methods are used. Example one requires
-an additional div above target so is not ideal. Scroll
-method doesn't work on IE browsers but is the ideal
-choice. The anchors are distributed in the media queries 
-with different margin top spaces according to screen size*/
-#exampleone {
-padding-top: 10px;
-margin-top: -10px;
-}
-#exampletwoimages {
-scroll-margin-top:26px;
-}
-#examplethreetext {
-scroll-margin-top:18px;
-}
-#protectingkiller {
-scroll-margin-top:18px;
-}
-#johnramseyallegation {
-scroll-margin-top:18px;
-}
-#karrcult {
-scroll-margin-top:18px;
 }
 /*Text fade with Read More at bottom of fade*/
 .textfade {
@@ -143,48 +105,8 @@ border:1px solid #555;
 border-radius:12px;
 margin:auto;
 }
-.flexleftjmk {
-flex: 50%;
-}
-.flexrightjmk {
-flex: 50%;
-border:0px;
-border-radius: 12px
-background:rgba(0,0,0,0.70);
-margin:auto;
-}
-.flexleftklaas {
-flex:50%;
-border-radius: 12px;
-border:1px solid #555;
-}
-.flexrightklaas {
-flex:50%;
-border-radius:12px;
-padding:0px 10px 10px;
-border:1px solid #555;
-background:rgba(0,0,0,0.70);
-}
 .title {
 padding:0px 0px 5px;
-}
-.titleramseyklaas {
-display:block;
-}
-.jmktoptitle {
-font-family:Cinzel-Regular;
-font-size:15px;
-text-align:center;
-display:block;
-margin:0px auto 0px;
-}
-.pollyklaastitle {
-font-family:ITCEDSCR;
-color:#EFEFEF;
-font-size:28px;
-width:100%;
-margin: 0px auto 0px;
-text-align:center;
 }
 .mariakatsaristitle {
 font-family:ITCEDSCR;
@@ -193,51 +115,14 @@ font-size:28px;
 margin: 0px auto 0px;
 text-align:center;
 }
-.jonbenetramseytitle {
-font-family:ITCEDSCR;
-color:#EFEFEF;
-font-size:28px;
-width:100%;
-margin: 0px auto 0px;
-text-align:center;
-}
-.jmktitlesides {
-max-width:60px;
-width:100%;
-margin:0px 0px 0px;
-}
-.butterflies {
-max-width:70px;
-width:100%;
-margin:0px 0px 0px;
-}
-.jmksubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:10.5px;
-}
 .mariakatsarissubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:13px;
-}
-.jmktitlecorners {
-font-family:Montserrat-ThinItalic;
-font-size:10.5px;
-margin:7px 0px 0px;
 }
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
 text-align:center;
-}
-.christmascard {
-display:flex;
-flex-direction:column;
-gap:12px;
-border:1px solid #555;
-padding:12px;
-border-radius:12px;
-background-position:center;
-background-size:cover;
 }
 .photolayout {
 display:flex;
@@ -282,10 +167,6 @@ margin-top:-4px;
 .edwardian {
 font-family:ITCEDSCR;
 font-size:36px;
-}
-.jonbenetbdayedwardian {
-font-family:ITCEDSCR;
-font-size:38px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
@@ -353,14 +234,6 @@ color:#999;
 blockquote p {
 display: inline;
 }
-.xembedleft {
-margin-left:auto;
-margin-right:auto;
-}
-.xembedright {
-margin-left:auto;
-margin-right:auto;
-}
 .laptopvisible {
 display:none;
 }
@@ -369,30 +242,6 @@ display:none;
 }
 .phonevisible {
 display:block;
-}
-.jonbenetportrait {
-display:block;
-margin-right: auto;
-margin-left: auto;
-}
-.jonbenetxmas {
-display:block;
-margin-left: auto;
-margin-right: auto;
-}
-.jonbenetwhites {
-display:block;
-max-width: 430px;
-margin-left: auto;
-margin-right: auto;
-}
-.pkxmas {
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
-margin-left: auto;
-margin-right: auto;
-margin-bottom:0px;
 }
 .heading {
 font-size:25px;
@@ -470,96 +319,6 @@ margin:0px auto 15px;
 margin-left:auto;
 margin-right:auto;
 }
-.christamartinamos {
-margin-bottom:26px;
-display:none;
-}
-.martinamos {
-display:block;
-}
-.christaamos {
-display:block;
-}
-.bellum7 {
-margin-bottom:26px;
-}
-.pollyklaas {
-margin-bottom:26px;
-}
-.pollyklaas2001 {
-margin-left:auto;
-margin-right:auto;
-}
-.jmkquote {
-margin-left:auto;
-margin-right:auto;
-}
-.klaasedwardianoutlined {
-font-family:ITCEDSCR;
-font-size:28px;
-margin:-4px auto -14px;
-padding:6px;
-}
-.klaascinzeloutlined {
-font-family:Cinzel-Regular;
-font-size:14px;
-margin:-4px auto 0px;
-padding:8px;
-}
-#pollyklaas {
-padding-top: 10px;
-margin-top: -10px;
-}
-.richardallendavis {
-margin-left: auto;
-margin-right: auto;
-}
-.reducedjmkheader {
-margin-left: auto;
-margin-right: auto;
-}
-.jmkbrookecourt {
-display:block;
-margin-left:auto;
-margin-right:auto;
-}
-#law {
-border-radius: 25px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-}
-.jmksonomalawyers {
-margin-left: auto;
-margin-right: auto;
-display: block;
-}
-#mooneysolution {
-float: right;
-margin-left: 10px;
-margin-bottom: 10px;
-width: 100%;
-}
-.georgiamoses {
-margin-left: auto;
-margin-right: auto;
-}
-.cho {
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-#cherish {
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 25px;
-}
-#donaldsmith {
-margin-right: auto;
-margin-left: auto;
-display: block;
-}
 .slidermobilepage {
 font-weight: bold;
 font-size: 9pt;
@@ -582,38 +341,6 @@ font-style: italic;
 padding-top: 6px;
 padding-bottom: 6px;
 text-shadow: 1px 1px 2px #000000;
-}
-.scoundrel {
-display: block;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 20px;
-}
-.madeleinemccann {
-margin-left:auto;
-margin-right:auto;
-border-radius:12px;
-}
-.madeleinemccannls {
-display:block;
-margin-left:auto;
-margin-right:auto;
-border-radius:12px;
-}
-.spiegelcollection {
-margin-left:auto;
-margin-right:auto;
-border-radius:12px;
-}
-.antikarrgroup {
-margin-left:auto;
-margin-right:auto;
-border-radius:12px;
-}
-.karrcult {
-margin-left:auto;
-margin-right:auto;
-border-radius:12px;
 }
 .audioplayer {
 display:flex;
@@ -671,21 +398,6 @@ scroll-margin-top:10px;
 #nbcnewsinterview {
 scroll-margin-top:10px;
 }
-#charlottexmassitting {
-scroll-margin-top:10px;
-}
-#charlottexmaswalk {
-scroll-margin-top:10px;
-}
-#estellexmas {
-scroll-margin-top:10px;
-}
-#patriciabday2023 {
-scroll-margin-top:10px;
-}
-#swedenroyals2020 {
-scroll-margin-top:10px;
-}
 
 /* Tablet Layout: 701px to 835px - Ipad Pro 11-inch down to
 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
@@ -705,72 +417,18 @@ padding:10px;
 gap:10px;
 border:1px solid #555;
 }
-.flexleftjmk {
-flex: 50%;
-}
-.flexrightjmk {
-flex: 50%;
-border:1px solid #555;
-border-radius: 12px;
-background:rgba(0,0,0,0.70);
-}
-.flexleftklaas {
-flex:60%;
-border-radius:12px;
-border:1px solid #555;
-}
-.flexrightklaas {
-flex:40%;
-border-radius:12px;
-padding:0px 10px 10px;
-border:1px solid #555;
-background:rgba(0,0,0,0.70);
-}
 .title {
 display:block;
 padding:0px 0px 5px;
-}
-.titleramseyklaas {
-display:block;
-}
-.jmktoptitle {
-font-family:Cinzel-Regular;
-font-size:25px;
-text-align:center;
-margin:-9px auto -4px;
-}
-.jmktitlesides {
-max-width:90px;
-width:25%;
-margin:-5px 0px 0px;
-}
-.jmksubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:14px;
 }
 .mariakatsarissubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:17px;
 }
-.jmktitlecorners {
-font-family:Montserrat-ThinItalic;
-font-size:14px;
-margin:7px 0px 0px;
-}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
 text-align:center;
-}
-.christmascard {
-display:flex;
-flex-direction:column;
-gap:20px;
-border:1px solid #555;
-padding:20px;
-border-radius:12px;
-background-position:center;
-background-size:cover;
 }
 .photolayout {
 display:flex;
@@ -815,10 +473,6 @@ margin-top:-8px;
 .edwardian {
 font-family:ITCEDSCR;
 font-size:42px;
-}
-.jonbenetbdayedwardian {
-font-family:ITCEDSCR;
-font-size:36px;
 }
 .Montserrat-ThinItalic {
 font-family:Montserrat-ThinItalic;
@@ -886,16 +540,6 @@ color:#999;
 blockquote p {
 display: inline;
 }
-.xembedleft {
-width:450px;
-float:left;
-margin-right:15px;
-}
-.xembedright {
-width:450px;
-float:right;
-margin-left:15px;
-}
 .laptopvisible {
 display:none;
 }
@@ -904,32 +548,6 @@ display:block;
 }
 .phonevisible {
 display:none;
-}
-.jonbenetportrait {
-display:block;
-max-width: 480px;
-margin-right: 15px;
-float: left;
-}
-.jonbenetxmas {
-display:block;
-float:right;
-max-width: 500px;
-margin-left:15px;
-}
-.jonbenetwhites {
-display:block;
-max-width: 430px;
-float:left;
-margin-right:15px;
-}
-.pkxmas {
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
-float:left;
-max-width:570px;
-margin-right:15px;
 }
 .heading {
 font-size:28px;
@@ -1014,129 +632,12 @@ border:0px solid #555;
 border-radius:0px;
 display:block;
 }
-.christamartinamos {
-max-width: 1000px;
-margin-top:5px;
-margin-bottom:5px;
-border:none;
-display:block;
-}
-.martinamos {
-display:none;
-}
-.christaamos {
-display:none;
-}
-.bellum7 {
-max-width: 500px;
-float:left;
-margin-right:15px;
-margin-bottom:0px;
-border:0px solid #555;
-border-radius:0px;
-}
-.pollyklaastitle {
-font-family:ITCEDSCR;
-color:#EFEFEF;
-font-size:47px;
-width:50%;
-margin:-10px auto -5px;
-text-align:center;
-}
 .mariakatsaristitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:40px;
 margin:-10px auto -5px;
 text-align:center;
-}
-.jonbenetramseytitle {
-font-family:ITCEDSCR;
-color:#EFEFEF;
-font-size:47px;
-width:50%;
-margin:-10px auto -5px;
-text-align:center;
-}
-.pollyklaas {
-max-width: 460px;
-float:left;
-margin-right:15px;
-margin-bottom:0px;
-border:none;
-}
-.pollyklaas2001 {
-max-width:450px;
-float:right;
-margin-left:15px;
-}
-.jmkquote {
-max-width: 460px;
-float:left;
-margin-right:15px;
-}
-.klaasedwardianoutlined {
-display:none;
-}
-.klaascinzeloutlined {
-display:none;
-}
-.butterflies {
-max-width:150px;
-width:25%;
-margin:-5px 0px 0px;
-}
-#pollyklaas {
-padding-top: 10px;
-margin-top: -5px;
-}
-.richardallendavis {
-max-width: 460px;
-float: right;
-margin-left: 15px;
-}
-.reducedjmkheader {
-margin-left: 15px;
-float:right;
-max-width:300px;
-}
-.jmkbrookecourt {
-float: left;
-margin-right: 15px;
-max-width:550px;
-}
-#law {
-float: right;
-border-radius: 25px;
-margin-left: 15px;
-}
-.jmksonomalawyers {
-float: left;
-margin-right: 15px;
-}
-#mooneysolution {
-float: right;
-margin-left: 15px;
-width: 100%;
-}
-.georgiamoses {
-max-width: 450px;
-float:left;
-margin-right:15px;
-}
-.cho {
-float: right;
-margin-left: 15px;
-}
-#cherish {
-border-radius: 12px;
-float: left;
-margin-right: 15px;
-max-width: 60%;
-}
-#donaldsmith {
-float: right;
-margin-left: 15px;
 }
 .slidermobilepage {
 font-weight: bold;
@@ -1160,41 +661,6 @@ font-style: italic;
 padding-top: 6px;
 padding-bottom: 6px;
 text-shadow: 1px 1px 2px #000000;
-}
-.scoundrel {
-display: block;
-margin-right: auto;
-margin-left: auto;
-}
-.madeleinemccann {
-float: left;
-margin-right: 15px;
-max-width:60%;
-border-radius:12px;
-}
-.madeleinemccannls {
-float: right;
-margin-left: 15px;
-max-width:480px;
-border-radius:12px;
-}
-.spiegelcollection {
-float: right;
-margin-left: 15px;
-max-width:400px;
-border-radius:12px;
-}
-.antikarrgroup {
-float: left;
-margin-right: 15px;
-max-width:60%;
-border-radius:12px;
-}
-.karrcult {
-float: right;
-margin-left: 15px;
-max-width:400px;
-border-radius:12px;
 }
 .audioplayer {
 display:flex;
@@ -1257,21 +723,6 @@ scroll-margin-top:26px;
 #nbcnewsinterview {
 scroll-margin-top:26px;
 }
-#charlottexmassitting {
-scroll-margin-top:26px;
-}
-#charlottexmaswalk {
-scroll-margin-top:26px;
-}
-#estellexmas {
-scroll-margin-top:26px;
-}
-#patriciabday2023 {
-scroll-margin-top:26px;
-}
-#swedenroyals2020 {
-scroll-margin-top:15px;
-}
 }
 
 /* Desktop Layout: 835px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -1289,72 +740,18 @@ gap:10px;
 border-radius:12px;
 border:1px solid #555;
 }
-.flexleftjmk {
-flex: 50%;
-}
-.flexrightjmk {
-flex: 50%;
-border:1px solid #555;
-border-radius: 12px;
-background:rgba(0,0,0,0.70);
-}
-.flexleftklaas {
-flex:50%;
-border-radius:12px;
-border:1px solid #555;
-}
-.flexrightklaas {
-flex:50%;
-border-radius:12px;
-padding:0px 10px 10px;
-border:1px solid #555;
-background:rgba(0,0,0,0.70);
-}
 .title {
 display:block;
 padding:0px 0px 5px;
-}
-.titleramseyklaas {
-display:block;
-}
-.jmktoptitle {
-font-family:Cinzel-Regular;
-font-size:30px;
-text-align:center;
-margin:-9px auto -4px;
-}
-.jmktitlesides {
-max-width:100px;
-width:25%;
-margin:-5px 0px 0px;
-}
-.jmksubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:14px;
 }
 .mariakatsarissubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:17px;
 }
-.jmktitlecorners {
-font-family:Montserrat-ThinItalic;
-font-size:14px;
-margin:7px 0px 0px;
-}
 .headings {
 font-family:Cinzel-Regular;
 font-size:17px;
 text-align:center;
-}
-.christmascard {
-display:flex;
-flex-direction:column;
-gap:20px;
-border:1px solid #555;
-padding:20px;
-border-radius:12px;
-background-position:center;
-background-size:cover;
 }
 .photolayout {
 display:flex;
@@ -1395,10 +792,6 @@ font-size:30px;
 margin-top:-8px;
 }
 .edwardian {
-font-family:ITCEDSCR;
-font-size:42px;
-}
-.jonbenetbdayedwardian {
 font-family:ITCEDSCR;
 font-size:42px;
 }
@@ -1469,18 +862,6 @@ color:#888;
 blockquote p {
 display: inline;
 }
-/*550px is the max width size of an X embed. 
-Greater widths make empty margins*/
-.xembedleft {
-width:550px;
-float:left;
-margin-right:15px;
-}
-.xembedright {
-width:550px;
-float:right;
-margin-left:15px;
-}
 .laptopvisible {
 display:block;
 }
@@ -1489,32 +870,6 @@ display:none;
 }
 .phonevisible {
 display:none;
-}
-.jonbenetportrait {
-display:block;
-max-width: 700px;
-margin-right: 15px;
-float: left;
-}
-.jonbenetxmas {
-display:block;
-max-width: 560px;
-float:right;
-margin-left:15px;
-}
-.jonbenetwhites {
-display:block;
-max-width: 430px;
-float:left;
-margin-right:15px;
-}
-.pkxmas {
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
-max-width:700px;
-float:left;
-margin-right:15px;
 }
 .heading {
 font-size:30px;
@@ -1606,123 +961,12 @@ max-width: 950px;
 margin:0px auto 0px;
 display:block;
 }
-.martinamos {
-display:none;
-}
-.christaamos {
-display:none;
-}
-.bellum7 {
-max-width: 700px;
-float:left;
-margin-right:15px;
-margin-bottom:0px;
-border:0px solid #555;
-border-radius:0px;
-}
-.pollyklaastitle {
-font-family:ITCEDSCR;
-color:#EFEFEF;
-font-size:50px;
-width:50%;
-margin:-10px auto auto;
-text-align:center;
-}
 .mariakatsaristitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:40px;
 margin:-10px auto auto;
 text-align:center;
-}
-.jonbenetramseytitle {
-font-family:ITCEDSCR;
-color:#EFEFEF;
-font-size:50px;
-width:50%;
-margin:-10px auto auto;
-text-align:center;
-}
-.pollyklaas {
-max-width:700px;
-float:left;
-margin-right:15px;
-margin-bottom:20px;
-border:none;
-margin-top:-15px;
-}
-.pollyklaas2001 {
-max-width:550px;
-float:right;
-margin-left:15px;
-}
-.jmkquote {
-max-width:700px;
-float:left;
-margin-right:15px;
-}
-.klaasedwardianoutlined {
-display:none;
-}
-.klaascinzeloutlined {
-display:none;
-}
-.butterflies {
-max-width:175px;
-width:25%;
-margin:-5px 0px 0px;
-}
-#pollyklaas {
-padding-top: 10px;
-margin-top: -5px;
-}
-.richardallendavis {
-max-width: 700px;
-float: right;
-margin-left: 15px;
-}
-.reducedjmkheader {
-margin-left: 15px;
-float:right;
-max-width:350px;
-}
-.jmkbrookecourt {
-float: left;
-margin-right: 15px;
-max-width:700px;
-}
-#law {
-float: right;
-border-radius: 12px;
-margin-left: 15px;
-}
-.jmksonomalawyers {
-float: left;
-margin-right: 15px;
-}
-#mooneysolution {
-float: right;
-margin-left: 15px;
-width: 68.6%;
-}
-.georgiamoses {
-max-width: 550px;
-float:left;
-margin-right:15px;
-}
-.cho {
-float: right;
-margin-left: 15px;
-}
-#cherish {
-border-radius: 12px;
-float: left;
-margin-right: 15px;
-max-width: 57%;
-}
-#donaldsmith {
-float: right;
-margin-left: 15px;
 }
 .slidermobilepage {
 font-weight: bold;
@@ -1747,41 +991,6 @@ font-style: italic;
 padding-top: 6px;
 padding-bottom: 6px;
 text-shadow: 1px 1px 2px #000000;
-}
-.scoundrel {
-display: block;
-margin-right: auto;
-margin-left: auto;
-}
-.madeleinemccann {
-float: left;
-margin-right: 15px;
-max-width:700px;
-border-radius:12px;
-}
-.madeleinemccannls {
-float: right;
-margin-left: 15px;
-max-width:50%;
-border-radius:12px;
-}
-.spiegelcollection {
-float: right;
-margin-left: 15px;
-max-width:400px;
-border-radius:12px;
-}
-.antikarrgroup {
-float: left;
-margin-right: 15px;
-max-width:50%;
-border-radius:12px;
-}
-.karrcult {
-float:right;
-margin-left:15px;
-max-width:400px;
-border-radius:12px;
 }
 .audioplayer {
 display:flex;
@@ -1847,21 +1056,6 @@ scroll-margin-top:26px;
 }
 #nbcnewsinterview {
 scroll-margin-top:26px;
-}
-#charlottexmassitting {
-scroll-margin-top:26px;
-}
-#charlottexmaswalk {
-scroll-margin-top:26px;
-}
-#estellexmas {
-scroll-margin-top:26px;
-}
-#patriciabday2023 {
-scroll-margin-top:26px;
-}
-#swedenroyals2020 {
-scroll-margin-top:15px;
 }
 }
 
