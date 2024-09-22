@@ -665,6 +665,12 @@ margin-left: 0;
 display: none;
 }
 /*Anchors*/
+#deathtape {
+scroll-margin-top:15px;
+}
+#nbcnewsinterview {
+scroll-margin-top:15px;
+}
 #charlottexmassitting {
 scroll-margin-top:10px;
 }
