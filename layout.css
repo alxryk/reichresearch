@@ -119,6 +119,17 @@ text-align:center;
 font-family:Montserrat-ThinItalic;
 font-size:13px;
 }
+.reichcftitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:28px;
+margin: 0px auto 0px;
+text-align:center;
+}
+.reichcfsubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:13px;
+}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
@@ -421,10 +432,6 @@ border:1px solid #555;
 display:block;
 padding:0px 0px 5px;
 }
-.mariakatsarissubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:15px;
-}
 .headings {
 font-family:Cinzel-Regular;
 font-size:22px;
@@ -639,6 +646,21 @@ font-size:36px;
 margin:-10px auto -5px;
 text-align:center;
 }
+.mariakatsarissubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:15px;
+}
+.reichcftitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:36px;
+margin:-10px auto -5px;
+text-align:center;
+}
+.reichcfsubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:15px;
+}
 .slidermobilepage {
 font-weight: bold;
 font-size: 9pt;
@@ -743,10 +765,6 @@ border:1px solid #555;
 .title {
 display:block;
 padding:0px 0px 5px;
-}
-.mariakatsarissubtitle {
-font-family:Montserrat-ThinItalic;
-font-size:17px;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -967,6 +985,21 @@ color:#EFEFEF;
 font-size:40px;
 margin:-10px auto auto;
 text-align:center;
+}
+.mariakatsarissubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:17px;
+}
+.reichcftitle {
+font-family:ITCEDSCR;
+color:#EFEFEF;
+font-size:40px;
+margin:-10px auto auto;
+text-align:center;
+}
+.reichcfsubtitle {
+font-family:Montserrat-ThinItalic;
+font-size:17px;
 }
 .slidermobilepage {
 font-weight: bold;
