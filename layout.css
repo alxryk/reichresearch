@@ -108,14 +108,14 @@ margin:auto;
 .title {
 padding:0px 0px 5px;
 }
-.mariakatsaristitle {
+.reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:28px;
 margin: 0px auto 0px;
 text-align:center;
 }
-.mariakatsarissubtitle {
+.reichsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:13px;
 }
@@ -647,14 +647,14 @@ border:0px solid #555;
 border-radius:0px;
 display:block;
 }
-.mariakatsaristitle {
+.reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:36px;
 margin:-10px auto -5px;
 text-align:center;
 }
-.mariakatsarissubtitle {
+.reichsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:15px;
 }
@@ -997,14 +997,14 @@ max-width: 950px;
 margin:0px auto 0px;
 display:block;
 }
-.mariakatsaristitle {
+.reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:40px;
 margin:-10px auto auto;
 text-align:center;
 }
-.mariakatsarissubtitle {
+.reichsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:17px;
 }
