@@ -114,6 +114,14 @@ max-width:90px;
 .starofdavidheader {
 max-width:40px;
 }
+.starofdavidheaderleft {
+max-width:40px;
+padding-left:15px;
+}
+.starofdavidheaderright {
+max-width:40px;
+padding-right:15px;
+}
 .reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
@@ -679,8 +687,13 @@ display:block;
 .reichheader {
 max-width:150px;
 }
-.starofdavidheader {
+.starofdavidheaderleft {
 max-width:50px;
+padding-left:15px;
+}
+.starofdavidheaderright {
+max-width:50px;
+padding-right:15px;
 }
 .reichtitle {
 font-family:ITCEDSCR;
@@ -1059,8 +1072,13 @@ display:block;
 .reichheader {
 max-width:200px;
 }
-.starofdavidheader {
+.starofdavidheaderleft {
 max-width:65px;
+padding-left:15px;
+}
+.starofdavidheaderright {
+max-width:65px;
+padding-right:15px;
 }
 .reichtitle {
 font-family:ITCEDSCR;
