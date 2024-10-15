@@ -111,6 +111,9 @@ padding:0px 0px 5px;
 .reichheader {
 max-width:90px;
 }
+.starofdavidheader {
+max-width:40px;
+}
 .reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
@@ -393,7 +396,15 @@ margin-right:auto;
 margin-left: auto;
 margin-right: auto;
 }
+.eugenereedright {
+margin-left: auto;
+margin-right: auto;
+}
 .pollyklaasreed {
+margin-left: auto;
+margin-right: auto;
+}
+.pollyklaasleft {
 margin-left: auto;
 margin-right: auto;
 }
@@ -668,10 +679,13 @@ display:block;
 .reichheader {
 max-width:150px;
 }
+.starofdavidheader {
+max-width:50px;
+}
 .reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:47px;
+font-size:43px;
 text-align:center;
 }
 .reichsubtitle {
@@ -756,10 +770,20 @@ max-width: 450px;
 float:left;
 margin-right:15px;
 }
+.eugenereedright {
+max-width: 450px;
+float:right;
+margin-left:15px;
+}
 .pollyklaasreed {
 max-width: 450px;
 float:right;
 margin-left:15px;
+}
+.pollyklaasleft {
+max-width: 450px;
+float:left;
+margin-right:15px;
 }
 .holocaustreed {
 max-width: 450px;
@@ -1035,10 +1059,13 @@ display:block;
 .reichheader {
 max-width:200px;
 }
+.starofdavidheader {
+max-width:65px;
+}
 .reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:60px;
+font-size:50px;
 text-align:center;
 }
 .reichsubtitle {
@@ -1123,10 +1150,20 @@ max-width: 650px;
 float:left;
 margin-right:15px;
 }
+.eugenereedright {
+max-width: 650px;
+float:right;
+margin-left:15px;
+}
 .pollyklaasreed {
 max-width: 650px;
 float:right;
 margin-left:15px;
+}
+.pollyklaasleft {
+max-width: 650px;
+float:left;
+margin-right:15px;
 }
 .holocaustreed {
 max-width: 650px;
