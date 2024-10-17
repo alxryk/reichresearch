@@ -139,8 +139,9 @@ font-family:Montserrat-ThinItalic;
 font-size:13px;
 }
 .summary {
-margin:36px auto 26px;
 line-height:1.6;
+margn:auto;
+text-align:justify;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -715,7 +716,8 @@ font-size:15px;
 }
 .summary {
 max-width:1000px;
-margin:36px auto 26px;
+margn:auto;
+text-align:justify;
 line-height:2.0;
 }
 .slidermobilepage {
@@ -1103,7 +1105,8 @@ font-size:17px;
 }
 .summary {
 max-width:1000px;
-margin:36px auto 26px;
+margn:auto;
+text-align:justify;
 line-height:2.0;
 }
 .slidermobilepage {
