@@ -131,12 +131,16 @@ font-size:13px;
 .reichcftitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:28px;
+font-size:34px;
 margin: 0px auto 0px;
 }
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:13px;
+}
+.summary {
+margin:36px auto 26px;
+line-height:1.6;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -709,6 +713,11 @@ margin:-10px auto -5px;
 font-family:Montserrat-ThinItalic;
 font-size:15px;
 }
+.summary {
+max-width:1000px;
+margin:36px auto 26px;
+line-height:2.0;
+}
 .slidermobilepage {
 font-weight: bold;
 font-size: 9pt;
@@ -1091,6 +1100,11 @@ margin:-10px auto auto;
 .reichcfsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:17px;
+}
+.summary {
+max-width:1000px;
+margin:36px auto 26px;
+line-height:2.0;
 }
 .slidermobilepage {
 font-weight: bold;
