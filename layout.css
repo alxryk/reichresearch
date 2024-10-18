@@ -258,10 +258,7 @@ color:#999;
 blockquote p {
 display: inline;
 }
-.laptopvisible {
-display:none;
-}
-.tabletvisible {
+.comptabvisible {
 display:none;
 }
 .phonevisible {
@@ -319,7 +316,7 @@ line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
-font-size:0.95rem;
+font-size:0.85rem;
 padding-top:10px;
 padding-bottom:2px;
 color:white;
@@ -592,10 +589,7 @@ color:#999;
 blockquote p {
 display: inline;
 }
-.laptopvisible {
-display:none;
-}
-.tabletvisible {
+.comptabvisible {
 display:block;
 }
 .phonevisible {
@@ -974,11 +968,8 @@ color:#888;
 blockquote p {
 display: inline;
 }
-.laptopvisible {
+.comptabvisible {
 display:block;
-}
-.tabletvisible {
-display:none;
 }
 .phonevisible {
 display:none;
