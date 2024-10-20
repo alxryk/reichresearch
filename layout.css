@@ -140,8 +140,11 @@ font-size:13px;
 }
 .summary {
 line-height:1.6;
-margn:auto;
+margin:0px auto 0px;
 text-align:justify;
+display:block;
+border:none;
+margin:auto;
 }
 .headings {
 font-family:Cinzel-Regular;
@@ -710,9 +713,12 @@ font-size:15px;
 }
 .summary {
 max-width:1000px;
-margn:auto;
+margin:40px auto 0px;
 text-align:justify;
 line-height:2.0;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
 }
 .slidermobilepage {
 font-weight: bold;
@@ -1096,9 +1102,12 @@ font-size:17px;
 }
 .summary {
 max-width:1000px;
-margn:auto;
+margin:40px auto 0px;
 text-align:justify;
 line-height:2.0;
+display:inline-block;
+border:1px solid #555;
+border-width:1px 0px 1px 0px;
 }
 .slidermobilepage {
 font-weight: bold;
