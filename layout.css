@@ -140,13 +140,13 @@ font-size:13px;
 }
 .reichfooterimg {
 display:block;
-max-width:160px;
+max-width:170px;
 margin:35px auto 0px;
 }
 .reichfootertxt {
 margin:0px auto 35px;
 text-align:center;
-font-size:0.90rem; 
+font-size:0.95rem; 
 }
 .summary {
 line-height:1.6;
